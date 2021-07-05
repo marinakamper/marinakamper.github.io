@@ -274,7 +274,9 @@
 
 .container {
   position: relative;
-  width: 50%;
+  margin-left: auto;
+margin-right: auto;
+  width: 70%;
 }
 
 .image {
@@ -308,8 +310,8 @@
 
 .text {
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.7;
   color: black;
   font-size: 12px;
-  padding: 16px 32px;
+  padding: 12px 25px;
 }
