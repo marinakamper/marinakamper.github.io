@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: paintings
 permalink: /Paintings/
 order: 3
