@@ -5,7 +5,7 @@ order: 1
 ---
 
 <p style="text-align: justify">
-Hi! My name is Marina. I grew up in Stellenbosch, a student town in South Africa surrounded by mountains and never-ending vineyards. Growing up I loved drawing and painting (basically anything that allowed my to put some colour on a piece of paper). So of course, I went and did the most logical thing ever. . . I decided to go and study mechanical engineering. Luckily, I also love maths and drawing skills can sometimes come in handy in machine design classes.
+Hi! My name is Marina. I grew up in Stellenbosch, a student town in South Africa surrounded by mountains and never-ending vineyards. Growing up I loved drawing and painting (basically anything that allowed me to put some colour on a piece of paper). So of course, I went and did the most logical thing ever. . . I decided to go and study mechanical engineering. Luckily, I also love maths and drawing skills can sometimes come in handy in machine design classes.
 Engineering is great fun, but every now and then I like to do some artsy stuff as well. And this is what this website is for. . . a collection of (mostly random) projects I do in my free time.
 </p>
 
