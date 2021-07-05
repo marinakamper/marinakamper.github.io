@@ -7,6 +7,8 @@ order: 2
 
 
 <style>
+
+/* STYLES FOR SLIDESHOW */
 .button {
   border: none;
   color: white;
@@ -48,15 +50,64 @@ order: 2
   text-align: center;
 }
 
+
+
+/* STYLES FOR IMAGE GRID*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 20%; /* IE10 */
+  flex: 32%;
+  max-width: 32%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
 </style>
 
 
 
-
-
 My favourite art media are gauche, watercolour and coloured pencils. I also recently starting creating digital drawings using Procreate.
-
-Sketchbook:
 
 <div class = "container">
   <div id="slide-show">
@@ -81,4 +132,31 @@ Sketchbook:
       x[slideIndex-1].style.display = "block";  
     }
   </script>
+</div>
+
+
+
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="/assets/illust/illustrations/illus1.jpg">
+    <img src="/assets/illust/illustrations/illus4.jpg">
+    <img src="/assets/illust/illustrations/illus7.jpg">
+    <img src="/assets/illust/illustrations/illus10.jpg">
+  </div>
+  <div class="column">
+  <img src="/assets/illust/illustrations/illus2.jpg">
+  <img src="/assets/illust/illustrations/illus5.jpg">
+  <img src="/assets/illust/illustrations/illus8.jpg">
+  <img src="/assets/illust/illustrations/illus11.jpg">
+  </div>
+  <div class="column">
+  <img src="/assets/illust/illustrations/illus3.jpg">
+  <img src="/assets/illust/illustrations/illus6.jpg">
+  <img src="/assets/illust/illustrations/illus9.jpg">
+  <img src="/assets/illust/illustrations/illus12.png">
+
+  </div>
 </div>
