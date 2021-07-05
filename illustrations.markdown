@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Illustrations
 permalink: /illustrations/
 order: 2
