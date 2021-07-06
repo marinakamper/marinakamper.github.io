@@ -103,18 +103,66 @@ order: 2
 }
 
 
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 </style>
 
 
+<!--- My favourite art media are gauche, watercolour and coloured pencils. I also recently starting creating digital drawings using Procreate. --->
 
-My favourite art media are gauche, watercolour and coloured pencils. I also recently starting creating digital drawings using Procreate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column">
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus1.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus4.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus10.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus2.jpg"></div>
+  </div>
+  <div class="column">
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus7.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus5.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus8.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus11.jpg"></div>
+  </div>
+  <div class="column">
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus3.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus6.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus9.jpg"></div>
+    <div class = "zoom"><img src="/assets/illust/illustrations/illus12.png"></div>
+  </div>
+</div>
+
+
+
+ <br/>
+ <br/>
+
 
 <div class = "container">
   <div id="slide-show">
-    <img class="mySlides container" src="/assets/illust/sketch01.JPG" />
-    <img class="mySlides container" src="/assets/illust/sketch02.JPG" />
-    <img class="mySlides container" src="/assets/illust/sketch03.JPG" />
-    <img class="mySlides container" src="/assets/illust/sketch04.JPG" />
+    <img class="mySlides container" src="/assets/illust/sketches/TITLE.png" />
+    <img class="mySlides container" src="/assets/illust/sketches/sketch01.JPG" />
+    <img class="mySlides container" src="/assets/illust/sketches/sketch02.JPG" />
+    <img class="mySlides container" src="/assets/illust/sketches/sketch03.JPG" />
+    <img class="mySlides container" src="/assets/illust/sketches/sketch04.JPG" />
   <div class = "text-center">  
   <button class="button button2" onclick="plusDivs(-1)">&#10094;</button>
     <button class="button button2" onclick="plusDivs(1)">&#10095;</button>
@@ -132,31 +180,4 @@ My favourite art media are gauche, watercolour and coloured pencils. I also rece
       x[slideIndex-1].style.display = "block";  
     }
   </script>
-</div>
-
-
-
-
-
-
-<div class="row">
-  <div class="column">
-    <img src="/assets/illust/illustrations/illus1.jpg">
-    <img src="/assets/illust/illustrations/illus4.jpg">
-    <img src="/assets/illust/illustrations/illus7.jpg">
-    <img src="/assets/illust/illustrations/illus10.jpg">
-  </div>
-  <div class="column">
-  <img src="/assets/illust/illustrations/illus2.jpg">
-  <img src="/assets/illust/illustrations/illus5.jpg">
-  <img src="/assets/illust/illustrations/illus8.jpg">
-  <img src="/assets/illust/illustrations/illus11.jpg">
-  </div>
-  <div class="column">
-  <img src="/assets/illust/illustrations/illus3.jpg">
-  <img src="/assets/illust/illustrations/illus6.jpg">
-  <img src="/assets/illust/illustrations/illus9.jpg">
-  <img src="/assets/illust/illustrations/illus12.png">
-
-  </div>
 </div>
