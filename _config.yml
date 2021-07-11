@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#title: Marina Projects
+title: Marina Projects
 email: mkamper94@gmail.com
 author: Marina Kamper
 logo: Logo.png
