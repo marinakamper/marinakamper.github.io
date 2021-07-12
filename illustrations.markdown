@@ -114,27 +114,15 @@ order: 2
 </style>
 
 
-<!--- My favourite art media are gauche, watercolour and coloured pencils. I also recently starting creating digital drawings using Procreate. --->
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 <div class="row">
   <div class="column">
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus1.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus4.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus10.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus2.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illus1" src="/assets/illust/illustrations/illus1.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illus4" src="/assets/illust/illustrations/illus4.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illus10" src="/assets/illust/illustrations/illus10.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illus2" src="/assets/illust/illustrations/illus2.jpg"></div>
   </div>
   <div class="column">
     <div class = "zoom"><img src="/assets/illust/illustrations/illus7.jpg"></div>
