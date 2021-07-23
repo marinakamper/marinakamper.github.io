@@ -72,9 +72,9 @@ order: 2
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 20%; /* IE10 */
-  flex: 32%;
-  max-width: 32%;
+  -ms-flex: 45%; /* IE10 */
+  flex: 45%;
+  max-width: 45%;
   padding: 0 4px;
 }
 
@@ -121,18 +121,24 @@ order: 2
   <div class="column">
     <div class = "zoom"><img alt="marina kamper illustration 1" src="/assets/illust/illustrations/marina_kamper_illustration1.jpg"></div>
     <div class = "zoom"><img alt="marina kamper illustration 4" src="/assets/illust/illustrations/marina_kamper_illustration4.jpg"></div>
+  </div>
+  <div class="column">
     <div class = "zoom"><img alt="marina kamper illustration 10" src="/assets/illust/illustrations/marina_kamper_illustration10.jpg"></div>
     <div class = "zoom"><img alt="marina kamper illustration 2" src="/assets/illust/illustrations/marina_kamper_illustration2.jpg"></div>
   </div>
   <div class="column">
     <div class = "zoom"><img alt="marina kamper illustration 7" src="/assets/illust/illustrations/marina_kamper_illustration7.jpg"></div>
     <div class = "zoom"><img alt="marina kamper illustration 5" src="/assets/illust/illustrations/marina_kamper_illustration5.jpg"></div>
+  </div>
+  <div class="column">
     <div class = "zoom"><img alt="marina kamper illustration 8" src="/assets/illust/illustrations/marina_kamper_illustration8.jpg"></div>
     <div class = "zoom"><img alt="marina kamper illustration 11" src="/assets/illust/illustrations/marina_kamper_illustration11.jpg"></div>
   </div>
   <div class="column">
     <div class = "zoom"><img alt="marina kamper illustration 3" src="/assets/illust/illustrations/marina_kamper_illustration3.jpg"></div>
     <div class = "zoom"><img alt="marina kamper illustration 6" src="/assets/illust/illustrations/marina_kamper_illustration6.jpg"></div>
+  </div>
+  <div class="column">
     <div class = "zoom"><img alt="marina kamper illustration 9" src="/assets/illust/illustrations/marina_kamper_illustration9.jpg"></div>
     <div class = "zoom"><img alt="marina kamper illustration 12" src="/assets/illust/illustrations/marina_kamper_illustration12.png"></div>
   </div>

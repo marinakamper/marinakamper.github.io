@@ -6,13 +6,10 @@ order: 3
 ---
 
 
-<!--- Sometimes, when I am in the mood (doesn't happen too often) I do a little bit of oil painting.--->
-
-
 
 
 <div class="container">
-  <img src="/assets/paints/old_man.JPG" alt="{{ filename }}"  class="image" />
+  <img src="/assets/paints/old_man.JPG" alt="marina kamper painting man"  class="image" />
   <div class="middle">
     <div class="text">
       <p>Reference pic: <a href="https://www.pexels.com/photo/man-person-people-old-34534/" target="_blank" >link</a> </p>
@@ -24,7 +21,7 @@ order: 3
 
 
 <div class="container">
-  <img src="/assets/paints/snow.jpg" alt="{{ filename }}"  class="image" />
+  <img src="/assets/paints/snow.jpg" alt="marina kamper painting snow"  class="image" />
   <div class="middle">
     <div class="text">
       <p>Medium: Oil on wood</p>
