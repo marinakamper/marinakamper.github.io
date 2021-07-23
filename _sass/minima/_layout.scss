@@ -25,8 +25,8 @@
 }
 
 .site-logo {
-  width: auto;
-  height: 200px ;
+  width: 70%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -272,6 +272,11 @@
 
 
 
+
+/**
+ * my own stuff: paintings
+ */
+
 .container {
   position: relative;
   margin-left: auto;
@@ -314,4 +319,22 @@
   color: black;
   font-size: 12px;
   padding: 12px 25px;
+}
+
+
+
+/**
+ * my own stuff: illustrations
+ */
+
+
+.simple_image {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.simple_image:hover .image {
+  transform: scale(1.15);
 }

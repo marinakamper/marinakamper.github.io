@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: illustrations
 permalink: /illustrations/
 order: 2
@@ -7,49 +7,6 @@ order: 2
 
 
 <style>
-
-/* STYLES FOR SLIDESHOW */
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 8px 12px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button2 {
-  background-color: white;
-  color: black;
-  border: 2px solid #555555;
-}
-
-.button2:hover {
-  background-color: #555555;
-  color: white;
-}
-
-.container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-
-
-.mySlides{
-  height: 400px;
-  width:auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
 
 
 /* STYLES FOR IMAGE GRID*/
@@ -115,6 +72,21 @@ order: 2
 
 
 
+<h3>
+Procreate (digital) illustrations
+</h3>
+
+<div class="simple_image">
+    <div class = "zoom"><img alt="marina kamper granny" src="/assets/illust/digital/granny_cookies.JPG"></div>
+</div>
+
+<br>
+<br>
+
+
+<h3>
+Gouache and watercolour illustrations
+</h3>
 
 
 <div class="row">
@@ -128,7 +100,7 @@ order: 2
   </div>
   <div class="column">
     <div class = "zoom"><img alt="marina kamper illustration 7" src="/assets/illust/illustrations/marina_kamper_illustration7.jpg"></div>
-    <div class = "zoom"><img alt="marina kamper illustration 5" src="/assets/illust/illustrations/marina_kamper_illustration5.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 9" src="/assets/illust/illustrations/marina_kamper_illustration9.jpg"></div>
   </div>
   <div class="column">
     <div class = "zoom"><img alt="marina kamper illustration 8" src="/assets/illust/illustrations/marina_kamper_illustration8.jpg"></div>
@@ -139,12 +111,7 @@ order: 2
     <div class = "zoom"><img alt="marina kamper illustration 6" src="/assets/illust/illustrations/marina_kamper_illustration6.jpg"></div>
   </div>
   <div class="column">
-    <div class = "zoom"><img alt="marina kamper illustration 9" src="/assets/illust/illustrations/marina_kamper_illustration9.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 5" src="/assets/illust/illustrations/marina_kamper_illustration5.jpg"></div>
     <div class = "zoom"><img alt="marina kamper illustration 12" src="/assets/illust/illustrations/marina_kamper_illustration12.png"></div>
   </div>
 </div>
-
-
-
- <br/>
- <br/>
