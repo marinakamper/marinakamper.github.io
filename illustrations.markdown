@@ -119,22 +119,22 @@ order: 2
 
 <div class="row">
   <div class="column">
-    <div class = "zoom"><img alt="marina kamper illus1" src="/assets/illust/illustrations/illus1.jpg"></div>
-    <div class = "zoom"><img alt="marina kamper illus4" src="/assets/illust/illustrations/illus4.jpg"></div>
-    <div class = "zoom"><img alt="marina kamper illus10" src="/assets/illust/illustrations/illus10.jpg"></div>
-    <div class = "zoom"><img alt="marina kamper illus2" src="/assets/illust/illustrations/illus2.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 1" src="/assets/illust/illustrations/marina_kamper_illustration1.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 4" src="/assets/illust/illustrations/marina_kamper_illustration4.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 10" src="/assets/illust/illustrations/marina_kamper_illustration10.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 2" src="/assets/illust/illustrations/marina_kamper_illustration2.jpg"></div>
   </div>
   <div class="column">
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus7.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus5.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus8.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus11.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 7" src="/assets/illust/illustrations/marina_kamper_illustration7.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 5" src="/assets/illust/illustrations/marina_kamper_illustration5.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 8" src="/assets/illust/illustrations/marina_kamper_illustration8.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 11" src="/assets/illust/illustrations/marina_kamper_illustration11.jpg"></div>
   </div>
   <div class="column">
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus3.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus6.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus9.jpg"></div>
-    <div class = "zoom"><img src="/assets/illust/illustrations/illus12.png"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 3" src="/assets/illust/illustrations/marina_kamper_illustration3.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 6" src="/assets/illust/illustrations/marina_kamper_illustration6.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 9" src="/assets/illust/illustrations/marina_kamper_illustration9.jpg"></div>
+    <div class = "zoom"><img alt="marina kamper illustration 12" src="/assets/illust/illustrations/marina_kamper_illustration12.png"></div>
   </div>
 </div>
 
@@ -142,30 +142,3 @@ order: 2
 
  <br/>
  <br/>
-
-
-<div class = "container">
-  <div id="slide-show">
-    <img class="mySlides container" src="/assets/illust/sketches/TITLE.png" />
-    <img class="mySlides container" src="/assets/illust/sketches/sketch01.JPG" />
-    <img class="mySlides container" src="/assets/illust/sketches/sketch02.JPG" />
-    <img class="mySlides container" src="/assets/illust/sketches/sketch03.JPG" />
-    <img class="mySlides container" src="/assets/illust/sketches/sketch04.JPG" />
-  <div class = "text-center">  
-  <button class="button button2" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="button button2" onclick="plusDivs(1)">&#10095;</button>
-    </div>
-  </div>
-  <script>
-    var slideIndex = 1;showDivs(slideIndex);
-    function plusDivs(n) {showDivs(slideIndex += n);}
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = x.length}
-      for (i = 0; i < x.length; i++) {x[i].style.display = "none";}
-      x[slideIndex-1].style.display = "block";  
-    }
-  </script>
-</div>
