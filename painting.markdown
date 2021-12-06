@@ -8,6 +8,16 @@ order: 3
 
 
 
+<div class="container">
+  <img src="/assets/paints/man_in_black_suit.JPG" alt="marina kamper man in suit"  class="image" />
+  <div class="middle">
+    <div class="text">
+      <p>Reference pic: <a href="https://www.pexels.com/photo/portrait-photo-of-man-in-black-formal-coat-3823495/" target="_blank" >link</a> </p>
+      <p>Medium: Oil on canvas</p>
+      <p>Size: 40 by 40 cm</p>
+    </div>
+  </div>
+</div>
 
 
 
