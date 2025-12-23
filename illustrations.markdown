@@ -2,7 +2,7 @@
 layout: default
 title: illustrations
 permalink: /illustrations/
-order: 2
+order: 4
 ---
 
 
