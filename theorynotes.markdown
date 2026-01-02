@@ -14,6 +14,11 @@ order: 2
 </div>
 
 <div class="project-card">
+  <h3><a href="/technotes/kanban/">Kanban boards</a></h3>
+  <p>Graphical guide to Kanban boards.</p>
+</div>
+
+<div class="project-card">
   <h3><a href="/technotes/forecast/">XGBoost vs ARIMA for demand forecasting</a></h3>
   <p>A comparison between using XGBoost and ARIMA for demand forecasting.</p>
 </div>
