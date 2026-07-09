@@ -43,10 +43,11 @@ plugins:
   - jekyll-last-modified-at
 
 
-collections:
-  technotes:
-    output: true
-    permalink: /technotes/:name/
+header_pages:
+  - index.markdown
+  - cad.markdown
+  - painting.markdown
+  - illustrations.markdown
 
 # Optional. The default date format, used if none is specified in the tag.
 
