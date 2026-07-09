@@ -2,7 +2,7 @@
 layout: default
 title: paintings
 permalink: /Paintings/
-order: 3
+order: 4
 ---
 
 
